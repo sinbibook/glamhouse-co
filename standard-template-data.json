@@ -1,7 +1,7 @@
 {
   "metadata": {
-    "version": "1.5.0",
-    "generatedAt": "2026-10-09T08:19:48.416681759Z",
+    "version": "1.6.0",
+    "generatedAt": "2026-10-09T08:22:34.044304436Z",
     "templateType": "trip_e",
     "propertyId": "87fefd5c-04e0-4e84-8ba2-58813718b3ea",
     "homepageId": "814818e6-cd31-4f39-b9e2-b97fd50e41e2"
@@ -1716,7 +1716,7 @@
                     "id": "420c76c5-357a-490c-ad3b-277654a493b0",
                     "url": "https://jlnjajtcnyqupfaqjerz.supabase.co/storage/v1/object/public/app-images/homepage/814818e6-cd31-4f39-b9e2-b97fd50e41e2/index_essence/1787629667034-8fqy1rmjga.jpg",
                     "sortOrder": 2,
-                    "description": "자연과 함께하는 시원한 야외 물놀이 공간",
+                    "description": "몸과 마음을 회복하며 여유의 시간",
                     "isSelected": true,
                     "blockId": null
                   },
