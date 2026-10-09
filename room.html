@@ -33,14 +33,14 @@
   <meta property="og:type" content="website" />
   <meta property="og:title" content="괴산 글램하우스 애견펜션 - 객실안내" />
   <meta property="og:description" content="줄 없이 뛰는 하루, 강아지가 먼저 도착하는 여행. 보호자와 반려견이 함께 쉬는 목적형 애견 스테이입니다." />
-  <meta property="og:image" content="https://bookingplay-media.s3.amazonaws.com/item_images/2026/04/23/cPghdlL51C6s.jpg" />
+  <meta property="og:image" content="https://bookingplay-media.s3.amazonaws.com/item_images/2026/04/23/lX2j756MwK1G.jpg" />
   <meta property="og:url" content="https://glamhouse.co.kr" />
 
   <!-- Twitter Card Meta Tags -->
   <meta name="twitter:card" content="summary_large_image" />
   <meta name="twitter:title" content="괴산 글램하우스 애견펜션 - 객실안내" />
   <meta name="twitter:description" content="줄 없이 뛰는 하루, 강아지가 먼저 도착하는 여행. 보호자와 반려견이 함께 쉬는 목적형 애견 스테이입니다." />
-  <meta name="twitter:image" content="https://bookingplay-media.s3.amazonaws.com/item_images/2026/04/23/cPghdlL51C6s.jpg" />
+  <meta name="twitter:image" content="https://bookingplay-media.s3.amazonaws.com/item_images/2026/04/23/lX2j756MwK1G.jpg" />
   <meta name="naver-site-verification" content="b431198f35244e3403f9bfa2c317115707b07fec" />
   <meta name="google-site-verification" content="qez74ztsdUgFWD1ttHP99E9vQG70NO7EIE26idHa5Jw" />
 </head>
@@ -108,7 +108,7 @@
                             </ul>
                         </div>
                         <div class="room_if inner" data-aos="fade-up">
-                            <!-- MAPPER: rooms[current].description (\n→<br>) -->
+                            <!-- MAPPER: customFields roomtype hero title (\n→<br>), 없으면 미노출 -->
                             <div class="txt">
                             </div>
 
@@ -251,6 +251,14 @@
                         </div>
                     </div>
                 </div>
+                <!-- s: 객실 평면도 — 원본 객실 상세의 평면도 크롤링 이미지가 있을 때만 노출.
+                     제목 영역 없이 도면 이미지 한 장만 놓는다. 없으면 매퍼가 구간째 숨긴다. -->
+                <div class="room_floorplan" data-room-floorplan-section style="display: none">
+                    <!-- data-* : data-room-floorplan-image
+                         roomtypes[current] 평면도 이미지 → 없으면 섹션 미노출 -->
+                    <img alt="객실 평면도" data-room-floorplan-image />
+                </div>
+                <!--// 객실 평면도 -->
                 <!-- 서브페이지 [e] -->
             </div>
 

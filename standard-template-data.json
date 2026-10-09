@@ -1,7 +1,7 @@
 {
   "metadata": {
-    "version": "1.4.0",
-    "generatedAt": "2026-10-09T08:17:47.052606991Z",
+    "version": "1.5.0",
+    "generatedAt": "2026-10-09T08:19:48.416681759Z",
     "templateType": "trip_e",
     "propertyId": "87fefd5c-04e0-4e84-8ba2-58813718b3ea",
     "homepageId": "814818e6-cd31-4f39-b9e2-b97fd50e41e2"
@@ -29,6 +29,9 @@
     "domain": "glamhouse.co.kr",
     "realtimeBookingId": "https://booking.naver.com/booking/3/bizes/1614919",
     "ybsId": "79683",
+    "tripPropertyId": "10949",
+    "partnerType": "distributor_a",
+    "tripProviderName": "트립일레븐",
     "amenities": [
       "흡연구역(지정장소)",
       "편의점/매점",
@@ -584,10 +587,7 @@
         "surrounding": [ ],
         "commonArea": [ ]
       }
-    ],
-    "tripPropertyId": "10949",
-    "partnerType": "distributor_a",
-    "tripProviderName": "트립일레븐"
+    ]
   },
   "rooms": [
     {
